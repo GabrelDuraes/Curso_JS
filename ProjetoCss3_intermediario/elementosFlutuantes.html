@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Elementos Flutuantes</title>
+    <style type="text/css">
+        .conteudo {
+            border: 1px red solid;
+            background: blue;
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+            float: right;
+        }
+
+        /*
+        .conteudo1{
+            border: 1px red solid;
+            background: red;
+            width: 150px;
+            height: 150px;
+            float: left;
+            margin: 10px;
+        }*/
+        .conteudo-zero {
+            border: 1px red solid;
+            background: red;
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+        }
+
+        .clear {
+            clear: both;
+        }
+        #principal{
+            border: 1px red solid;
+            background: green;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="principal">
+        <div class="conteudo">
+            conteudo 1
+        </div>
+        <div class="conteudo">
+            conteudo 2
+        </div>
+        <div class="conteudo">
+            conteudo 3
+        </div>
+        <!--<div class="clear"></div>-->
+        <p class="clear">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dictum at libero non porta. Nunc tempus
+            elit
+            eget mi interdum sollicitudin. Mauris tempor enim nec facilisis sollicitudin. Curabitur accumsan odio ut
+            ligula
+            interdum, eu finibus odio volutpat. Fusce nulla lorem, consequat vitae ornare ac, consectetur at odio. Nunc
+            euismod facilisis neque, eget commodo quam auctor in. Nam odio felis, malesuada vel mauris vel, finibus
+            tincidunt neque. In in orci pulvinar, iaculis sem vel, rutrum nulla. Donec sit amet purus mattis, commodo
+            eros
+            non, porta neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In viverra lobortis sagittis. In
+            vehicula risus pulvinar ligula dapibus tincidunt.
+        </p>
+    </div>
+</body>
+
+</html>
